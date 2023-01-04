@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px , 1fr));
+            grid-gap: 20px;
+            align-items: stretch;
+        }
+        .grid > article{
+            border: 2px solid rgb(186, 122, 122);
+            box-shadow: 2px 2px 6px 0px rgba(104, 134, 52, 0.522);
+        }
+        .grid > article img{
+            max-width: 100%;
+        }
+        .text{
+            padding: 0 20px 20px;
+        }
+        .text > button{
+            background: rgb(118, 15, 15);
+            border: 0;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   <main class="grid">
+    <article>
+        <img src="grid.jpg.">
+        <div class="text">
+            <h3>Spring</h3>
+            <p>Beautiful</p>
+            <button>Purchase</button>
+        </div>
+    </article>
+    <article>
+        <img src="grid.jpg.">
+        <div class="text">
+            <h3>Spring</h3>
+            <p>Beautiful</p>
+            <button>Purchase</button>
+        </div>
+    </article>
+    <article>
+        <img src="grid.jpg.">
+        <div class="text">
+            <h3>Spring</h3>
+            <p>Beautiful</p>
+            <button>Purchase</button>
+        </div>
+    </article>
+    <article>
+        <img src="grid.jpg.">
+        <div class="text">
+            <h3>Spring</h3>
+            <p>Beautiful</p>
+            <button>Purchase</button>
+        </div>
+    </article>
+   </main>
+</body>
+</html>

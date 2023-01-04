@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myform{
+            display: grid;
+            grid-template-columns: [lable] auto [controls] 1fr;
+            grid-gap: .8em;
+            grid-auto-flow: row;
+            background: #eee;
+            padding: 1.2em;
+        }
+        .myform > label{
+            grid-column: labels;
+            grid-row: auto;
+            color: blue;
+
+        }
+        .myform > input,
+        .myform > textarea,
+        .myform > button{
+            grid-column: controls;
+            grid-row: auto;
+            border: 1px solid red;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <form class="myform">
+        <label for="customer_name">Name</label>
+        <input type="text" name="customer_name" id="customer_name" required>
+        <label for="email_address">Email</label>
+        <input type="email" name="email_address" id="email_address">
+        <label for="comments" >Comments</label>
+        <textarea name="comments" id="comments" maxlength="500"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Date of Birth
+        <select name="dd">
+            <script>
+                for(var i ;i<=31;i++){
+                    document.write("<option value="+i+">"+i+"</option>");
+                }
+            </script>
+        </select>
+        <select name="mm">
+            <script>
+                for(var i ;i<=12;i++){
+                    document.write("<option value="+i+">"+i+"</option>");
+                }
+            </script>
+        </select>
+        <select name="dd">
+            <script>
+                for(var i=1920 ;i<=2050;i++){
+                    document.write("<option value="+i+">"+i+"</option>");
+                }
+            </script>
+        </select>
+    </form>
+</body>
+</html>

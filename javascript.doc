@@ -1,0 +1,29 @@
+javascript and java both are different.
+java is a lanaguage and js is a scripting langauage.
+js complier is babel.
+ js is client side scripying lang.
+(client means any broswer)
+
+
+// <script langauage = "javascript">
+     </script>
+
+
+     <script> 
+     
+     </script>
+
+
+     js is case senitive language each and every much terminated by semicolon
+     js is object oriented scripting langauage 
+     in scripting lang. all code return inside function 
+     function are created with fuction keyword
+     /*
+     function hello(){
+        document.write("Good morning all")
+     }
+     */
+
+     
+
+
